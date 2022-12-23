@@ -1,0 +1,15 @@
+{
+  "name": "Planet War",
+  "shortDescription": "Conquer planets strategically to expand your empire over the whole galaxy.",
+  "picturePath": "./cover.png",
+  "fullDescriptionPath": "game-description.md",
+  "playerCount": {
+    "min": 2,
+    "max": 6
+  },
+  "mapsFolderPath": "./maps",
+  "packageServer": {
+    "command": "./package_server.sh",
+    "result": "./planet-war-server.zip"
+  }
+}

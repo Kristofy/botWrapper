@@ -1,0 +1,102 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "1"
+    },
+    {
+      "id": 2,
+      "name": "2"
+    }
+  ],
+  "board": {
+    "width": 200,
+    "height": 200
+  },
+  "planets": [
+    {
+      "id": 0,
+      "x": 50,
+      "y": 50,
+      "efficiency": 3,
+      "size": 10
+    },
+    {
+      "id": 1,
+      "x": 150,
+      "y": 150,
+      "efficiency": 1,
+      "size": 10
+    },
+    {
+      "id": 2,
+      "x": 50,
+      "y": 150,
+      "efficiency": 1,
+      "size": 10
+    },
+    {
+      "id": 3,
+      "x": 150,
+      "y": 50,
+      "efficiency": 1,
+      "size": 10
+    }
+  ],
+  "planetsDistances": [
+    [
+      0,
+      14,
+      10,
+      10
+    ],
+    [
+      14,
+      0,
+      10,
+      10
+    ],
+    [
+      10,
+      10,
+      0,
+      14
+    ],
+    [
+      10,
+      10,
+      14,
+      0
+    ]
+  ],
+  "tick": {
+    "id": 0,
+    "planets": [
+      {
+        "id": 0,
+        "player": {
+          "id": 0,
+          "startingTick": 0
+        },
+        "population": 10
+      },
+      {
+        "id": 1,
+        "player": {
+          "id": 1,
+          "startingTick": 0
+        },
+        "population": 10
+      },
+      {
+        "id": 2,
+        "player": null,
+        "population": 1
+      },
+      { "id": 3,
+        "player": null, "population": 1
+      }
+    ],
+    "troops": []
+  }
+}

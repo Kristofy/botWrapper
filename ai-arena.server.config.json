@@ -1,0 +1,5 @@
+{
+  "build": "npm install && npm run build && rename 's/(.*)\\.js$/$1\\.mjs/' dist/* && mv node_modules/ dist/node_modules/",
+  "programPath": "dist",
+  "run": "node --es-module-specifier-resolution=node %program/nanowar.mjs %map %bots"
+}
